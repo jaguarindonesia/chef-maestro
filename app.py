@@ -50,7 +50,7 @@ def load_vectordb():
 if api_key:
     # Inisialisasi API & Model Gemini 1.5 Flash
     genai.configure(api_key=api_key)
-    model = genai.GenerativeModel("gemini-1.5-flash") 
+    model = genai.GenerativeModel("models/gemini-1.5-flash")
     
     # Load database dan buat mesin pencari (retriever)
     vectordb = load_vectordb()
