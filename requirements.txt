@@ -1,5 +1,7 @@
 streamlit
 google-generativeai
+langchain
 langchain-community
 sentence-transformers
-chromadb
+chromadb==0.4.24
+pysqlite3-binary
