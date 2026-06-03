@@ -41,7 +41,7 @@ def load_vectordb():
         model_kwargs={'device': 'cpu'},
         encode_kwargs={'normalize_embeddings': True}
     )
-    # Membaca folder database lokal 'chef_vectordb'
+    # Membaca folder database lokal 'chef_vectordb' (Sudah diperbaiki namanya)
     return Chroma(persist_directory="./chef_vectordb", embedding_function=embedding_model)
 
 # ==========================================
